@@ -1,0 +1,43 @@
+.main {
+    background:url(/media/Main-background.svg);
+    background-position: right;
+    background-size: cover;
+    height:800px;
+}
+.main .wrapper {
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.description {
+    font-family: 'Montserrat';
+max-width:621px;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+margin-top:12px;
+}
+.special-offer-main {
+    background: url(/media/special-offer-main.jpg);
+    background-position: right;
+    background-size: cover;
+    height: 800px;
+}
+.hopg-film-main {
+    background: url(/media/hopg-films-background.jpg);
+    background-position: right;
+    background-size: cover;
+    height: 800px;
+    color:#fff;
+
+    h1 {
+        color:#fff;
+    }
+}
+.hopg-crystal-main {
+    background: url(/media/hopg-crystals-background.jpg);
+    background-position: right;
+    background-size: cover;
+    height: 800px;
+    
+}
