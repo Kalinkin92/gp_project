@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;800&display=swap');
+
+h1 {
+font-family: $font-montserrat;
+max-width: 704px;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+color:$color-primary;
+padding-top:256px;
+}
+h2 {
+font-family: $font-montserrat;
+font-size:48px;
+}
+.highlighted {
+    color:$color-primary;
+    font-family:$font-montserrat;
+    
+}
