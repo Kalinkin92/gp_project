@@ -1,0 +1,126 @@
+.products {
+    background: url(/media/second_block_background.jpg);
+    padding-bottom: 69px;
+
+    &_experience {
+        padding: 86px 0 91px;
+
+        .highlighted {
+            font-size: 34px;
+            max-width: 407px;
+            width: 100%;
+        }
+
+        .info {
+            font-size: 15px;
+            font-family: $font-open-sans;
+            max-width: 567px;
+        }
+
+        .part {
+            padding-right: 25px;
+        }
+    }
+
+    &_gallery {
+        .row {
+            margin-bottom: 26px;
+            justify-content: space-evenly;
+        }
+
+        &--title {
+            h2 {
+                margin-bottom: 45px;
+            }
+        }
+
+        &--card {
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(181, 181, 181, 0.3);
+            width: 314px;
+            height: 326px;
+
+            .image {
+                max-height: 228px;
+
+                img {
+                    border-radius: 12px 12px 0 0;
+                }
+            }
+
+            .name {
+                max-height: 98px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.contact-us {
+
+    .part {
+        max-width: 50%;
+        width: 50%;
+    }
+
+    &_title {
+        h2 {
+            margin-top: 111px;
+            margin-bottom: 18px;
+        }
+    }
+
+    &_description {
+        p {
+            font-size: 16px;
+            font-family: $font-open-sans;
+            margin-bottom: 44px;
+            padding-right: 111px;
+        }
+    }
+
+    &_contact-table {
+        max-width: 373px;
+
+        .row {
+            margin-bottom: 41px;
+            justify-content: space-between;
+        }
+
+        &_contact-card {
+            max-width: 171px;
+            width: 171px;
+
+            &--icon {
+            }
+
+            &--title {
+                font-size: 16px;
+                font-weight: bold;
+                font-family: $font-open-sans;
+            }
+
+            &--contact {
+                font-size: 14px;
+                font-family: $font-open-sans;
+            }
+        }
+    }
+
+    &_gold-icon {
+        text-align: right;
+        padding-right: 58px;
+
+        img {
+        }
+    }
+}
+
+
+//
+.slider img {
+    max-width: 944px;
+}

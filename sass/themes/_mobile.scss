@@ -1,0 +1,90 @@
+/*Laptom*/
+@media (max-width: 1200px) {
+    h1 {
+        padding-top:100px;
+        line-height:69px;
+        font-size:48px;
+    }
+    /*UI*/
+    .dws-menu > ul li a {
+        padding:15px 7px 7px;
+    }
+    header {
+        padding:15px;
+    }
+    .main {
+        background-position: center;
+    }
+    .main .wrapper {
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+}
+/*мобилка*/
+@media (max-width: 845px) {
+    .header {
+        display:block;
+        max-height:unset;
+    }
+    .header-logo {
+        text-align:center;
+    }
+}
+@media (max-width: 620px) {
+    header {
+        position: fixed;
+        width: 100%;
+        z-index: 90;
+        background: #fff;
+        
+    }
+    .main {
+        padding-top: 102px;
+     }
+
+
+    .header-menu {
+        display:none;
+    }
+
+    .header-burger__btn {
+        display:block;
+    }
+ .header-logo img{
+     width:140px;
+ }
+ .header {
+     display:block;
+     max-height:100%;
+ }
+ .dws-menu li > ul li {
+     left:20%;
+ }
+ .dws-menu > ul {
+     display:block;
+ }
+
+ .header-logo {
+     text-align:center;
+ }
+ .dws-menu > ul li {
+     max-width:45%;
+ }
+ .dws-menu li ul {
+     left:40%;
+     top:0;
+ }
+ h1 {
+     padding:20px 0;
+     font-size:28px;
+     line-height:40px;
+     text-align:center;
+ }
+ .dws-menu > ul li .btn--gold {
+     margin-top:15px;
+ }
+  .description {
+     font-size:18px;
+ }
+ 
+}
