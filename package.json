@@ -1,0 +1,22 @@
+{
+  "name": "graphit_optics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss style.css -w"
+      },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kalinkin92/gp_project.git"
+  },
+  "author": "Pero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kalinkin92/gp_project/issues"
+  },
+  "homepage": "https://github.com/Kalinkin92/gp_project#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
